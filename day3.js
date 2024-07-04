@@ -138,12 +138,11 @@ const data={
         }
     ]
 }
-
 function name (data){
     console.log(data.code[0]._id)
     console.log(data.code[0].userId)
     console.log(data.code[0].ipAddress)
-
+//yaha ko array ma euta matra element xa tey bhayera 0 haleko
 }
 
 name(data)
